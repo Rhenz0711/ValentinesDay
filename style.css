@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+body {
+    background: url(sakura\ leaves.jpg);
+    position: relative;
+}
+
+.rose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.rose img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.message p {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.option {
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+.option button {
+    font-size: 200%;
+    height: 4rem;
+    width: 7rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins';
+
+}
+
+.option .yes {
+    background-color: blue;
+}
+
+.option .no {
+    background-color: red;
+}
+
+.background-video {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
